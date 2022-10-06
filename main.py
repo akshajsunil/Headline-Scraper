@@ -37,9 +37,9 @@ def main():
 
     SERVER = 'smtp.gmail.com'
     PORT = 587
-    FROM  = 'akshajxf@gmail.com'
-    TO = 'akshajsket2@gmail.com'
-    PASS="fcmvuzkgkqvlphbl"
+    FROM  = 'xxxxx@gmail.com'
+    TO = 'xxxxxx@gmail.com'
+    PASS="xxxxx"
 
     msg = MIMEMultipart()
     msg['Subject'] = 'Mail of the day' + str(now.day)
